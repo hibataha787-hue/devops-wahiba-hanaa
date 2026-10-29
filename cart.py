@@ -1,4 +1,4 @@
-TAX_RATE = 0.19
+TAX_RATE = 0.09
 def average(prices):
     return sum(prices) / len(prices)
 def total(prices):

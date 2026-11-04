@@ -9,3 +9,10 @@ def total(prices):
 
 def apply_discount(prices, percent):
     return [p * (1 - percent / 100) for p in prices]
+
+FREE_SHIPPING_FROM = 50
+def shipping(prices):
+    """Shipping cost: free from 50, before taxes."""
+    if sum(prices) > FREE_SHIPPING_FROM:
+        return 0
+    return 5

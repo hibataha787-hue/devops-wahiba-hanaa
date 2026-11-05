@@ -1,0 +1,1 @@
+![CI](https://github.com/hibataha787-hue/devops-wahiba-hanaa/actions/workflows/ci.yml/badge.svg)

@@ -2,6 +2,7 @@
 """Build the shop's web page into site/index.html."""
 
 import os
+
 from cart import shipping, total
 
 ITEMS = {
